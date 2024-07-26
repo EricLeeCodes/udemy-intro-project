@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import NewsList from "./components/NewsList";
 
 const App = () => {
   return (
     <>
-      <h1>Hello Friendomundos!</h1>
+      <Header />
+      <NewsList />
     </>
   );
 };
